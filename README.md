@@ -1,4 +1,1 @@
-require "sinatra"
-require "sinatra/reloader" if development?
-
-# Your classic application code goes here...
+background(7, 35, 7)
