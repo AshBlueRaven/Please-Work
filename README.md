@@ -1,6 +1,4 @@
-# myapp.rb
-require 'sinatra'
+require "sinatra"
+require "sinatra/reloader" if development?
 
-get '/' do
-  'Hello world!'
-end
+# Your classic application code goes here...
